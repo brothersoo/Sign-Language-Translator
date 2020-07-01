@@ -1,17 +1,17 @@
 import numpy as np
 import pandas as pd
 
-#pose : 0-23
-#face : 24-163
+#pose : 0-23                        total 24
+#face : 24-163                      total 140
     #lower-face-line : 24-57
     #eye-brow : 58-77
     #nose : 78-95
-    #eye : 96-119
-    #outer-mouth :  120-143
+    #eye : 96-119                       total 24
+    #outer-mouth :  120-143             total 24
     #inner-mouth : 144-159
     #pupil : 160-163
-#left hand : 164-205
-#right hand : 205-247
+#left hand : 164-205                total 42
+#right hand : 205-247               total 42
 
 def delete_face(X_):
     #X_ must be pyhton list
