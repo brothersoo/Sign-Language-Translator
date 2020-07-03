@@ -1,6 +1,9 @@
 #
 package-lock.json
 
+#
+USTS/public/javascripts/db.js
+
 # Logs
 logs
 *.log
