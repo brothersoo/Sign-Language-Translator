@@ -1,0 +1,19 @@
+extends indexlayout
+
+block header
+  div(class="main_door")
+    h1 
+      a(class="logo" href="/") USTS
+
+block content
+  form(action='/auth/login_process' name='login' method='post')
+    div.input
+      input(type="text" name="userName" placeholder='user name')
+    div.input
+      input(type="password" name="password" placeholder='password')
+    div.actions
+      input(type="submit" value="log in")
+    
+
+block footer
+

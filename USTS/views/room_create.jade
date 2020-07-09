@@ -1,0 +1,20 @@
+extends indexlayout
+
+block header
+  div(class="main_door")
+    h1 
+      a(class="logo" href="/") USTS
+
+block content
+  h2 make a new chatting room
+  form(action='/room/room_create_process' name='room_create' method='post')
+    div.input
+      span.label Room Name 
+      input(type="text", name="roomName")
+    div.input
+      span.label password 
+      input(type="password", name="password")
+    div.actions
+      input(type="submit", value="make it")
+
+block footer
